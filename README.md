@@ -32,7 +32,7 @@ mp3renamer <i>[-vw] directory</i>
 </dl>
 
 ## Dependencies
-The source depends on the [JAudioTagger](http://www.jthink.net/jaudiotagger/) v2.0.4 library for accessing ID3 tags and the [Apache Commons Lang](http://commons.apache.org/lang/) v3.1 library for string manipulation utilities.
+The source depends on the [JAudioTagger](http://www.jthink.net/jaudiotagger/) v2.0.4 library for accessing ID3 tags and the [Apache Commons Lang](http://commons.apache.org/lang/) v3.1 library for string manipulation utilities. [Java](http://www.java.com/) v6 is required to compile/run.
 
 ## DISCLAIMER
 *This app is used to help __ME__ organize my music collection. It has not been thoroughly tested and is in no way guaranteed to work. Use at your own risk, loss of data may occur.*
