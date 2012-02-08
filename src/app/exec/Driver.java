@@ -84,7 +84,7 @@ public class Driver {
 	}
 	
 	private static void printHelpMessage() {
-		System.out.println("Usage: java mp3renamer [-vw] directory");
+		System.out.println("Usage: java -jar mp3renamer [-vw] directory");
 	}
 	
 }
