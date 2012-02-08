@@ -24,7 +24,7 @@ The filename must be of the form <p>&lt;track&gt;. &lt;track_title&gt;.mp3</p>
 The app can execute in 'write operation' and fill in the ID3 tag of the mp3 file with information gathered from the folder hierarchy and the filename. It is assumed that the file is already named following the above rules.
 
 ## Usage
-java -jar mp3renamer <i>[-vw] directory</i>
+mp3renamer <i>[-vw] directory</i>
 <dl>
 <dt>v</dt><dd>Verbose mode. Prints informational messages.</dd>
 <dt>w</dt><dd>Write mode. Writes ID3 tags <b>from</b> filenames.</dd>
