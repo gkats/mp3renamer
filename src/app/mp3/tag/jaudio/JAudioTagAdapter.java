@@ -42,7 +42,7 @@ public class JAudioTagAdapter implements Tag {
 
 	@Override
 	public boolean hasEnoughAttributes() {
-		return !(isEmpty(tag.getFirst(FieldKey.TITLE)) 
+		return tag != null && !(isEmpty(tag.getFirst(FieldKey.TITLE)) 
 				|| isEmpty(tag.getFirst(FieldKey.ARTIST)) 
 				|| isEmpty(tag.getFirst(FieldKey.ALBUM)));
 	}
